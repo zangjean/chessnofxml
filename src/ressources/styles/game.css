@@ -1,0 +1,42 @@
+.cell {
+    -fx-border-color: black;
+}
+
+.cell-white {
+    -fx-background-color: #f0d9b5;
+}
+
+.cell-black {
+    -fx-background-color: #b58863;
+}
+/* :hover -> gere automatiquement le survol de la souris */
+.cell:hover{
+    -fx-background-color: #FFD1DC !important; /* Rose pastel */
+
+}
+
+.cell-highlight {
+    -fx-background-color: #b4eeb4;
+}
+
+.turn-label {
+    -fx-background-color: #ffffff; /* Fond blanc */
+    -fx-text-fill: black; /* Texte noir */
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-alignment: center;
+    -fx-min-width: 150px;
+
+}
+
+.white-turn {
+    -fx-background-color: #ffffff; /* Fond blanc */
+    -fx-text-fill: black;         /* Texte noir */
+}
+
+.black-turn {
+    -fx-background-color: #000000; /* Fond noir */
+    -fx-text-fill: white;          /* Texte blanc */
+}
